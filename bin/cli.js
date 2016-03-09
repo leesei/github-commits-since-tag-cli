@@ -23,13 +23,13 @@ let options = {
   token: TOKENS[Math.floor(Math.random() * 4)]
 };
 try {
-  // try to load `~/.githubcstrc`
+  // try to load `~/.ghcstrc`
   Object.assign(options,
-    JSON.parse(Fs.readFileSync(`${Homedir()}/.githubcstrc`))
+    JSON.parse(Fs.readFileSync(`${Homedir()}/.ghcstrc`))
   );
 } catch (err) {
   if (err.code !== 'ENOENT') {
-    console.log(Chalk.bgYellow.bold('WARNING') + ' malformed `~/.githubcstrc`, using default options');
+    console.log(Chalk.bgYellow.bold('WARNING') + ' malformed `~/.ghcstrc`, using default options');
   }
 }
 

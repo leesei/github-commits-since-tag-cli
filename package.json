@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CLI to get commits since a tag with GitHub API",
   "bin": {
-    "githubcst": "./bin/cli.js"
+    "ghcst": "./bin/cli.js"
   },
   "preferGlobal": true,
   "engines": {

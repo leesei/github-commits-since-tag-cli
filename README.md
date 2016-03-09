@@ -14,14 +14,14 @@ npm i -g github-commits-since-tag-cli
 
 ```sh
 # list commits since last tag for all repos of a specific user
-githubcst github
+ghcst github
 # list commits since last tag for a specific repo
-githubcst github/hub
+ghcst github/hub
 ```
 
 GitHub imposes a per IP rate limit on the calling of GitHub API, you need a [Personal access tokens](https://github.com/settings/tokens) to enjoy higher rates and access to private repo. A token with no specific role should suffice.
 
-You can use `~/.githubcstrc` to specify user name and token:
+You can use `~/.ghcstrc` to specify user name and token:
 ```json
 {
   "user": "GitHub username",
