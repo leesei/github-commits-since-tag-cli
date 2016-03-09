@@ -1,0 +1,28 @@
+{
+  "name": "github-commits-since-tag-cli",
+  "version": "1.0.0",
+  "description": "CLI to get commits since a tag with GitHub API",
+  "bin": {
+    "githubcst": "./bin/cli.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesei/github-commits-since-tag-cli.git"
+  },
+  "author": "leesei <leesei@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "github-commits-since-tag": "^1.0.0",
+    "os-homedir": "^1.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/leesei/github-commits-since-tag-cli/issues"
+  },
+  "homepage": "https://github.com/leesei/github-commits-since-tag-cli#readme"
+}
