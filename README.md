@@ -19,7 +19,7 @@ ghcst github
 ghcst github/hub
 ```
 
-GitHub imposes a per IP rate limit on the calling of GitHub API, you need a [Personal access tokens](https://github.com/settings/tokens) to enjoy higher rates and access to private repo. A token with no specific role should suffice.
+GitHub imposes a [per IP rate limit](https://developer.github.com/v3/#rate-limiting) on GitHub API requests, you need a [Personal access tokens](https://github.com/settings/tokens) to enjoy higher rates and access to private repo. A token with no specific role should suffice.
 
 You can use `~/.ghcstrc` to specify user name and token:
 ```json
