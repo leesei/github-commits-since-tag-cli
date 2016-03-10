@@ -18,7 +18,7 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "commander": "^2.9.0",
-    "github-commits-since-tag": "^1.0.0",
+    "github-commits-since-tag": "^1.1.0",
     "os-homedir": "^1.0.1"
   },
   "bugs": {
